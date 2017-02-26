@@ -1,0 +1,185 @@
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/*******************
+  FONT SETUP
+*******************/
+
+a {
+
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+
+
+/*******************
+  GENERAL SETUP
+*******************/
+
+html {
+	font-size: 20px;
+}
+
+/*******************
+  HEADER
+*******************/
+
+
+header {
+  background-color: black;
+  border-bottom: 0.3rem solid yellow;
+}
+
+
+h1 {
+  color: yellow;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  padding-top: 1rem;
+
+}
+
+header nav ul {
+  text-align: right;
+}
+
+header li {
+    display: inline-block;
+    padding: 0.1rem;
+}    
+
+ header a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+/*******************
+  STRAPLINE
+*******************/
+
+.strapline {
+  background-color: #D3D3D3;
+  padding: 0.6em;
+}
+
+.strapline h2 {
+  margin: 0;
+  padding: 0.8rem;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+del {
+  color: #808080;
+}
+
+/*******************
+  INTRO
+*******************/
+
+.intro {
+  background-image: url("../images/coworking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em 0 ;
+}
+
+.intro_box {
+  background-color: rgba(255,255,255,0.8);
+  margin-left: auto;
+  width: 325px;
+  padding: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+}
+
+.button_yellow{
+  background-color: yellow;
+  padding: 1em;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+/*******************
+  Links
+*******************/
+
+
+.links_block {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 25%;
+    border-left: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 2em;
+}    
+
+.links_block h4 {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 1em;
+
+}
+
+.links_block p {
+ margin: 0; 
+ padding: 1em;
+}
+
+.button_grey {
+  background-color: #D3D3D3;
+  text-align: center;
+  padding: 1em;
+  margin:auto;
+  border-radius: 10px;
+}
+
+/*******************
+  Footer
+*******************/
+
+footer {
+  color: white;
+  background-color: black;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0.6em 0.6em;
+  border: black;
+
+}
+
+
+
+
+
+
+
